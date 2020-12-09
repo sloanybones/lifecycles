@@ -3,6 +3,8 @@ import './App.css';
 import { Button, Container, Header } from 'semantic-ui-react';
 import GiftRandomizer from './Ian/GiftRandomizer';
 import MemberAddForm from "./Ian/MemberAddForm";
+import Data from './Andrew/Data';
+
 
 class App extends React.Component {
 
@@ -44,6 +46,14 @@ class App extends React.Component {
     </Container>
     )
   }
+}
+
+function App() {
+  return (
+    <>
+    <Data />
+    </>
+  );
 }
 
 export default App;
