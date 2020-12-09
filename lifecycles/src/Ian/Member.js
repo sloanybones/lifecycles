@@ -1,9 +1,9 @@
 import React from "react"
 import { Table } from "semantic-ui-react"
 
-const Member = ({name}) => (
+const Member = ({name, partner}) => (
   <Table.Row>
-    <Table.Cell>{name}</Table.Cell>
+    <Table.Cell>{name}{'--------------------'}{partner}</Table.Cell>
   </Table.Row>
 )
 
