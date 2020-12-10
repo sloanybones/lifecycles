@@ -3,7 +3,10 @@ import './App.css';
 import { Button, Container, Header } from 'semantic-ui-react';
 import GiftRandomizer from './Ian/GiftRandomizer';
 import MemberAddForm from "./Ian/MemberAddForm";
+import CounterClass from './Landon/CounterClass';
 import Data from './Andrew/Data';
+import DataFunc from './Andrew/DataFunc';
+import CounterFunc from "./Landon/CounterFunc";
 
 
 // class App extends React.Component {
@@ -51,7 +54,12 @@ import Data from './Andrew/Data';
 function App() {
   return (
     <>
+    <Container>
+    <CounterClass/>
+    <CounterFunc/>
+    </Container>
     <Data />
+    <DataFunc/>
     </>
   );
 }

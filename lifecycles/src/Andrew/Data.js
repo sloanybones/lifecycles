@@ -28,23 +28,16 @@ class Data extends React.Component{
     }
     )
   }
-    
-  
-      
-    
-    
-    
-    
-    
+
     render() {
-      const {data} = this.state
+     
       console.log(this.state)
       return(
       <>
         <h1>Data</h1>
         
         <ul>
-         { data.map( data =>
+         { this.state.data.map( data =>
           <li 
              key={data.id}>
             {data.first_name}
